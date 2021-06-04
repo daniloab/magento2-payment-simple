@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <payment>
+            <simple>
+                <active>1</active>
+                <model>SimplePayment\Payment\Model\Payment\Simple</model>
+                <title>Simple</title>
+                <group>Offline</group>
+            </simple>
+        </payment>
+    </default>
+</config>
